@@ -1,0 +1,26 @@
+program GCD :: 
+	var x,y,temp: int;
+	var a,b: int;
+	{
+		read x;
+		read y;
+		if x<y then {
+			a:=y;
+			b:=x;
+		}
+		else{
+			b:=y;
+			a:=x;
+		}
+		endif;
+		while (b <> 0) do {
+			temp:=a ;
+			a:=b;
+			b:=temp%b;
+		}
+		endwh;
+		write a;
+
+
+
+	}

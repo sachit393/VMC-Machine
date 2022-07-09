@@ -1,0 +1,15 @@
+program empty::
+    var x,y,z,w: int;
+
+    {
+        if x=1 then {
+            while(x>=0) do{
+                x:=x-1;
+            }
+            endwh;
+        }
+        else{
+            
+        }
+        endif;
+    }

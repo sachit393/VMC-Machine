@@ -1,0 +1,15 @@
+program goodtest1::
+    var x,y,z,w: int;
+
+    {
+        if x=0 then {
+            while(x>=0) do{
+                x:=x-1;
+            }
+            endwh;
+        }
+        else{
+            x:=1;
+        }
+        endif;
+    }

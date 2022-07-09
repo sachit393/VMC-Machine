@@ -1,0 +1,17 @@
+program factorial:: 
+    var n,temp: int;
+
+    {
+        temp:=1;
+        read n;
+
+        while n>0 do 
+            {
+                temp:=temp*n;
+                n:=n-1;
+            }
+        endwh;
+
+
+        write temp;
+    }

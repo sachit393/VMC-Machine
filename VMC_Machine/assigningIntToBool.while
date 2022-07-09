@@ -1,0 +1,8 @@
+program boolzero:: 
+    var n: bool;
+
+    {
+        
+        read n;
+        
+    }

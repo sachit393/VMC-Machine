@@ -1,0 +1,7 @@
+program divzero:: 
+    var a: int;
+
+    {
+        read a;
+        write a / 0;
+    }

@@ -1,0 +1,11 @@
+program goodtest3 :: 
+	var x,y:int;
+	var A,AY: bool;
+
+	{
+		x:=x++2;
+		y:=+2+x;
+		A:=AY<A;
+
+		
+	} 

@@ -1,0 +1,12 @@
+program goodtest2::
+	var b:int;
+
+	{
+
+				while b=0 do {
+					write b;
+					b:=b-1;
+				}
+				endwh;
+
+	}

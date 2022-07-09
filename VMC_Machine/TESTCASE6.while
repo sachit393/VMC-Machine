@@ -1,0 +1,6 @@
+program badtest3 :: 
+	var y:int;
+	var y:bool;
+	{
+		
+	} 

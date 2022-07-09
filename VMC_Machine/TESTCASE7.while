@@ -1,0 +1,6 @@
+program badtest4::
+	var a,b,c:bool;
+	var x:int ;
+	{
+		x:= x && tt;
+	}

@@ -1,0 +1,18 @@
+program nestedwhile::
+    var x,y,z,w: int;
+
+    {
+        read x;
+        while(x<4) do {
+            while(x<2) do{
+                write 100;
+                x:=x+2;
+
+            }
+            endwh;
+            x:=x+1;
+            write 9;
+        }
+        endwh;
+        
+    }

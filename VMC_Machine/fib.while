@@ -1,0 +1,29 @@
+program fib:: 
+    var n,res,prev,prevprev,temp: int;
+
+    {
+        prev:=0;
+        prevprev:=1;
+        res:=0;
+        read n;
+
+        if n=0 || n=1 then {
+            write n;
+        }
+        else{
+            while(n>=1) do
+                {
+                    temp:=res;
+                    res:=prev+prevprev;
+                    prevprev:=prev;
+                    prev:=res;
+                    n:=n-1;
+                }
+            endwh;
+            write res;
+        }
+        endif;
+        
+
+
+    }

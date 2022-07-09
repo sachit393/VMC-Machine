@@ -1,0 +1,22 @@
+program goodtest2::
+	var a,b,c: int;
+	var x,y:         bool;
+
+	{
+		if a<=b then 
+			{
+				a:=a-b;
+				x := tt;
+			}
+		else 
+			{
+				while x=tt do 
+					{
+						a:=a+1;
+						b:=b-1;
+					}
+				endwh;
+			}
+		endif;
+
+	}

@@ -1,0 +1,26 @@
+program badtest2::
+	var a,b,c: int;
+	var x,y:         bool;
+
+	{
+		x:= a>b;
+		y:= x<y;
+		y:= y=y;
+		y:= x<>x;
+		if a<=b then 
+			{
+				a:=a-b;
+				x := tt;
+			}
+		else 
+			{
+				while z do 
+					{
+						a:=a+1;
+						b:=b-1;
+					}
+				endwh;
+			}
+		endif;
+
+	}
